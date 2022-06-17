@@ -3,6 +3,9 @@
 ## Description
 A cli tool built in Node to interactively switch between git branches.
 
+## Installation
+`npm i -g git-i-checkout`
+
 ## Usage
 `gic`
 
