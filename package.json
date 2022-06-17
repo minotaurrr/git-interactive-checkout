@@ -1,5 +1,5 @@
 {
-  "name": "git-interactive-checkout",
+  "name": "git-i-checkout",
   "version": "1.0.0",
   "description": "Git interactive checkout",
   "exports": "./dist/index.js",
