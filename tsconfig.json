@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 16",
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES6"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "types": ["@types/jest", "@types/node"],
+    "outDir": "./dist",
+    "rootDirs": ["src"]
+  },
+  "exclude": ["node_modules", ".vscode", ".husky", "coverage"],
+  "include": ["src/**/*.ts"],
+  "ts-node": {
+    "files": true
+  }
+}
