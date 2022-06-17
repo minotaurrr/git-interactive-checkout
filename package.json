@@ -26,6 +26,10 @@
   "engines": {
     "node": ">=14.16"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:minotaurrr/git-interactive-checkout.git"
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.18.2",
     "@tsconfig/node16": "^1.0.2",
